@@ -34,7 +34,7 @@ jobs:
       - name: Build static site
         run: npm run build
         env:
-          NEXT_PUBLIC_BASE_PATH: /portfolio
+          NEXT_PUBLIC_BASE_PATH: /prince-portfolio
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
